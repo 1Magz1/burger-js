@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-html",
+    "stylelint-config-recess-order",
+    "stylelint-config-good-scss"
+  ],
+  "rules": {
+    "rule-empty-line-before": "never-multi-line",
+    "selector-max-type": 0
+  },
+  "customSyntax": "postcss-html"
+}
